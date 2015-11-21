@@ -48,7 +48,7 @@ threads = []
 try:
 	for i in xrange(total_thread):
 		en = st1 + tn
-		if (en > en1 );
+		if (en > en1 ):
 		 en = en1
 		thread = myThread(st1, en)
 		thread.start()
