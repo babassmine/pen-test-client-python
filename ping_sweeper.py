@@ -3,6 +3,7 @@ import collections
 import platform
 import socket, subprocess, sys
 import threading
+from datetime import datetime
 '''section 1'''
 
 net = raw_input("Enter the Network Address ")
