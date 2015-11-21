@@ -9,7 +9,7 @@ net = raw_input("Enter the Network Address ")
 st1 = int(raw_input("Enter the Starting Number "))
 en1 = int(raw_input("Enter the Last Number "))
 en1 = en1 + 1
-dic = collections.OrderDict()
+dic = collections.OrderedDict()
 oper = platform.system()
 
 if (oper=='Windows'):
