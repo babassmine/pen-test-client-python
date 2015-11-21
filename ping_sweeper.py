@@ -37,7 +37,7 @@ def run1(st1, en1):
 		comm = ping1 + addr
 		response = os.popen(comm)
 		for line in response.readlines():
-			if (line.count('TTL') || line.count('ttl')):
+			if (line.count('TTL') or line.count('ttl')):
 				dic[ip] = addr
 
 '''section 4'''
