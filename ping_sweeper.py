@@ -6,8 +6,8 @@ import threading
 '''section 1'''
 
 net = raw_input("Enter the Network Address ")
-st1 = int(raw_input("Enter the Starting Number ")
-en1 = int(raw_input("Enter the Last Number ")
+st1 = int(raw_input("Enter the Starting Number "))
+en1 = int(raw_input("Enter the Last Number "))
 en1 = en1 + 1
 dic = collections.OrderDict()
 oper = platform.system()
