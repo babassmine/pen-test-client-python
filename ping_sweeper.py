@@ -43,6 +43,7 @@ def run1(st1, en1):
 '''section 4'''
 total_ip = en1 - st1
 tn = 20 # number of ip handled by a single thread
+total_thread = total_ip / tn
 total_thread = total_thread+1
 threads = []
 
